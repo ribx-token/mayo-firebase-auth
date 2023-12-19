@@ -17,18 +17,18 @@ export const UserProvider: React.FC<UserProviderProps> = ({ children }) => {
 
   useEffect(() => {
     const fetchUser = async () => {
-      Logger.info("Attempting to fetch user from AsyncStorage.");
+      Logger.info("Attempting to fetch user from AsyncStorage.", null, {tag: 'mayo-firebase-auth'});
 
       try {
         const storedUser = await AsyncStorage.getItem('user');
         if (storedUser) {
-          Logger.info("User found in AsyncStorage.", { storedUser: JSON.parse(storedUser) });
+          Logger.info("User found in AsyncStorage.", { storedUser: JSON.parse(storedUser) }, {tag: 'mayo-firebase-auth'});
           setUser(JSON.parse(storedUser));
         } else {
-          Logger.warn("No user found in AsyncStorage.");
+          Logger.warn("No user found in AsyncStorage.", null, {tag: 'mayo-firebase-auth'});
         }
       } catch (error) {
-        Logger.error("Error fetching user from AsyncStorage.", error);
+        Logger.error("Error fetching user from AsyncStorage.", error, {tag: 'mayo-firebase-auth'});
       } finally {
         setUserContextLoading(false);
       }
