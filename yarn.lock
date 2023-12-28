@@ -10,9 +10,9 @@
     merge-options "^3.0.4"
 
 "@react-native-firebase/app@^18.7.1":
-  version "18.7.2"
-  resolved "https://registry.yarnpkg.com/@react-native-firebase/app/-/app-18.7.2.tgz#f50fc3ad5d990086cb01802f4d2e72137e454425"
-  integrity sha512-ZLHB0SfTPEwEzFO1oxWKb24Y8uI0vfGVjfWhfViFQsRKIhe9GF414lff7AFEbI2zW2zb23KdcKCE4WU10i+YrA==
+  version "18.7.3"
+  resolved "https://registry.yarnpkg.com/@react-native-firebase/app/-/app-18.7.3.tgz#e2d7d41b8df6173d270116762638f7e75cca76fe"
+  integrity sha512-KlUuLSCYrBMHXE2Evye1fzrqunUjFEPihxcpzuUyJ5yQyAuCNws7VGdEPIaXoKz1esof0uv8wMSxD+G6W+Vi8Q==
   dependencies:
     opencollective-postinstall "^2.0.3"
     superstruct "^0.6.2"
