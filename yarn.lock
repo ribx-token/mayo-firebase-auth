@@ -18,9 +18,9 @@
     superstruct "^0.6.2"
 
 "@react-native-firebase/auth@^18.5.0":
-  version "18.7.2"
-  resolved "https://registry.yarnpkg.com/@react-native-firebase/auth/-/auth-18.7.2.tgz#29db8dbcf45d9c1c31e815f77597958bca8bfe52"
-  integrity sha512-6s7JOLWi/sLsGb644UFL83Lkj181dJ+Z7CtX+xO6oLq+34fU5KbAIctQMcL6YnEqTDMBVdGOaiqwf/UsKjldsg==
+  version "18.7.3"
+  resolved "https://registry.yarnpkg.com/@react-native-firebase/auth/-/auth-18.7.3.tgz#60a3b66a9b93313ff00515b706bbf15864da99fb"
+  integrity sha512-agsooQigPbfZC3D74v2hDymG4dIdoLzhAoszmBPLUgPkS55nAnVgRvXpbG2c19T8jX98nuFWt2/mY0Y0GEEfWA==
   dependencies:
     plist "^3.1.0"
 
